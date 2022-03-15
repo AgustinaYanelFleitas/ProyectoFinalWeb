@@ -22,8 +22,6 @@ public class RegistroDeLaboreoDTO {
 
     private LocalDate finalizacionRegistro;
 
-    @JsonIgnore
-    private List<LaboreoDTO> laboreos;
-
+    private LaboreoDTO laboreos;
 
 }

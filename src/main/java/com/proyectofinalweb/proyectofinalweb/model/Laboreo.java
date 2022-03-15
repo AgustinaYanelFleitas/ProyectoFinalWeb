@@ -28,7 +28,4 @@ public class Laboreo {
     @Size(min = 2, message = "El descripcion debe tener al menos dos caracteres")
     private String descripcion;
 
-
-
-
 }

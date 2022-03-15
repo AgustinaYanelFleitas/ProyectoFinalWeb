@@ -43,5 +43,4 @@ public class ProyectoDeCultivo {
             CascadeType.REMOVE }, fetch = FetchType.LAZY, orphanRemoval = true)
     private List<RegistroDeLaboreo> registroDeLaboreos;
 
-
 }
