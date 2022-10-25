@@ -5,6 +5,7 @@ import com.proyectofinalweb.proyectofinalweb.dto.LoteDTO;
 import com.proyectofinalweb.proyectofinalweb.dto.request.LoteRequestDTO;
 import com.proyectofinalweb.proyectofinalweb.service.crud.ICampoService;
 import com.proyectofinalweb.proyectofinalweb.service.crud.ILoteService;
+import com.proyectofinalweb.proyectofinalweb.service.crud.IRegistroDeLaboreoService;
 import com.proyectofinalweb.proyectofinalweb.service.crud.ITipoDeSueloService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +27,8 @@ public class LoteController {
     private ILoteService loteService;
 
     private ITipoDeSueloService tipoDeSueloService;
+
+
 
     public LoteController(ICampoService campoService, ILoteService loteService, ITipoDeSueloService tipoDeSueloService) {
         this.campoService = campoService;
